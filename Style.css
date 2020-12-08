@@ -1,0 +1,289 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  color: white;
+  font-family: 'Major Mono Display';
+  margin: 0px;
+ background-image: linear-gradient(to right,#2A2B3D,#D2BCA0);
+}
+
+header h1,p{
+  
+  margin: 20px;
+  font-size: 22px;
+}
+video{
+  width: 100%;
+}
+#asus{
+  width: 140px;
+  float: right;
+  padding: 15px;
+  padding-right: 10px;
+}
+#bars {
+  margin: 10px;
+  background-color: transparent;
+  color: white;
+  text-shadow: 1px 1px 4px black;
+  border: none;
+  font-size: 30px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline;
+}
+
+.dropdown-content {
+  
+  margin-top: 15px;
+  display: none;
+  position: absolute;
+  background-image: linear-gradient(to right,#2A2B3D,#D2BCA0);
+  min-width: 358px;
+  height: 1000px;
+  border-bottom: 0.1px solid white;
+  z-index: 1;
+
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  text-shadow: 1px 1px 20px white;
+  font-size: 20px;
+}
+.dropdown-content a:hover
+{
+   background-image: linear-gradient(to right,#2A2B3D,white,#D2BCA0);
+   color: black;
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+div a{
+  text-decoration: none;
+  padding:  8px;
+  border-radius: 6px;
+  box-shadow: 0.5px 0.5px 10px black;
+  background-image: linear-gradient(to left,#D2BCA0,white,#D2BCA0);
+  color: #ff0066;
+  text-shadow: 1px 1px 2px white;
+}
+
+img{
+  width: 100%;
+}
+ .design {
+  margin: 45px;
+  border: 0.1px solid white;
+  box-shadow: 4px 4px 20px gray, 0.2px 0.2px 20px gray;
+  
+  transition-property:margin, box-shadow, border;
+   transition-duration: 2s;
+   transition-timing-function: linear;
+  }
+
+ .design:hover {
+   margin: 35px;
+   border: 0.1px solid white;
+   box-shadow: 8px 8px 20px white, 0.1px 0.1px 10px white;
+  }
+  
+ .content-design{
+   text-align: center;
+   color: white;
+  padding-bottom: 10px;
+  text-shadow: 1px 1px 8px gray;
+  font-size: 20px;
+   font-weight: bold;
+   transition: text-shadow,2s;
+   
+ }
+   
+ .content-design:hover{
+   text-shadow: 1px 1px 8px white;
+   font-size: 20px;
+ }
+ div{
+   text-align: center;
+ }
+ footer {
+   color: white; 
+   margin-top: 60px;
+   font-size: 30px;
+   text-align: center;
+ }
+.fa{ padding: 5px;
+   width: 32px;
+  background-color: white;
+  border: 1px solid white;
+  text-align: center;
+  text-decoration: none;
+  margin: 3px 1px;
+  border-radius: 10%;
+  color: gray;
+}
+footer p{
+  text-shadow: 1px 1px 2px black;
+}
+form{
+ 
+  text-align: center;
+  margin-bottom: 100px;
+ 
+}
+header{
+  background-image:linear-gradient(to bottom right,#2A2B3D,transparent,#D2BCA0)
+  ,url(Lap22.png);
+  background-size: cover;
+  height: 500px;}
+  
+ #h1{
+    color: white;
+    font-size: 35px;
+    text-shadow: -1px 1px 1.5px black,-1px 1px 1.5px black;
+  }
+  
+#imgcontent{
+color: white;
+border-radius:0px 100px 0px 0px;
+background-size: cover;
+padding-top: 110px;
+margin: 15px;
+opacity: 0.93;
+text-align: left;
+text-shadow: -1px 1px 1.5px black,-1px 1px 1.5px black;
+}
+
+input{
+  color: white;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  padding: 10px;
+ font-size: 20px;
+}
+::placeholder{
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+::selection{
+  color: white;
+  background: white;
+}
+input[ type="submit"]{
+  background-image: linear-gradient(to left,#D2BCA0,white,#D2BCA0);
+  text-decoration: none;
+  margin: 35px;
+  margin-top: 25px;
+  float: left;
+  padding:  8px;
+  border-radius: 6px;
+  box-shadow: 0.5px 0.5px 10px black;
+  background-image: linear-gradient(to left,);
+  color: black;
+  text-shadow: 1px 1px 2px white;
+}
+fieldset{
+  border: none;
+}
+legend{
+text-decoration: none;
+float: left;
+margin: 20px;
+margin-bottom: 2px;
+ font-weight: bold;
+ font-size: 25px;
+ padding: 10px;
+  color: black;
+  text-shadow: 1px 1px 2px white;}
+  
+.text-h1
+{
+  padding: 20px;
+  padding-bottom: 0px;
+  margin: 12px;
+  text-shadow: 2px 2px 4px black;
+  color: white;}
+  
+ .text-p {
+  margin: 30px;
+  color: white;
+  text-shadow: 1px 1px 6px gray;
+}
+.whatsapp-fixed{  
+  position: fixed;
+        bottom: 25px;
+        right: 25px;
+        }
+        
+        
+  .fa-facebook:hover{
+       background-color: #4267B2;
+       
+       box-shadow: none;
+       text-shadow: none;
+ 
+       color: white;
+       padding: 10px;
+       text-decoration: none;
+      
+}  
+.fa-youtube-play:hover{
+       background-color: #d71e18;
+      
+       box-shadow: none;
+       text-shadow: none;
+       color: white;
+       padding: 10px;
+       text-decoration: none;
+     
+}  
+.fa-instagram:hover{
+       background-image:linear-gradient(to bottom right,#405DE6,#5851DB,#833AB4,#C13584,#E1306C,#FD1D1D,#F56040,#F77737,#FCAF45,#FFDC80);
+       
+       box-shadow: none;
+       text-shadow: none;
+       
+       color: white;
+       padding: 10px;
+       text-decoration: none;
+       
+}
+      
+ .fa-whatsapp{
+        background-image:linear-gradient(#25d366,#25d366);
+       font-size: 80px;
+       box-shadow: none;
+       text-shadow: none;
+      
+       color: white;
+       padding: 10px;
+       text-decoration: none;
+       border-radius: 50%;
+}
+.fa-diamond{
+  border: none;
+  color: white;
+  background-color: transparent;
+}
+.mapouter{
+  position:relative;text-align:right;height:456px;width:642px;}.gmap_canvas {overflow:hidden;height:256px;width:340px; margin: 10px; border: 1px solid black;
+  }
+  
+  #fa{
+    font-size: 25px;
+    border-bottom: 1px solid white;
+  }
+  #footerline{
+    border-bottom:1px solid white;
+  }
+  
