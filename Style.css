@@ -271,7 +271,7 @@ margin-bottom: 2px;
   #footerline {
 border-bottom:1px solid white;
 }
-@media screen (min-width: 480){
+@media screen (max-width: 1024){
  *{
   margin: 0;
   padding: 0;
