@@ -2,38 +2,343 @@
   margin: 0;
   padding: 0;
 }
+
 body{
   color: white;
   font-family: 'Major Mono Display';
   margin: 0px;
- background-image: linear-gradient(to right,#2A2B3D,#D2BCA0);
+  background-image: linear-gradient(to right,#2A2B3D,#D2BCA0);
 }
 
 header h1,p{
   margin: 20px;
   font-size: 22px;
 }
+
 #asus{
   width: 140px;
   float: right;
   padding: 15px;
   padding-right: 10px;
 }
-#bars {
+
+.dropdown-content {
+  float: left;
+  margin: 30px;
+  z-index: 1;
+}
+#bars{
+  visibility: hidden;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 30px white;
+  font-size: 25px;
+}
+.dropdown-content a:hover
+{
+   background-image: linear-gradient(to right,#2A2B3D,white, #2A2B3D);
+   color: black;
+}
+div a{
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0.5px 0.5px 10px black;
+  background-image: linear-gradient(to left,#D2BCA0,white,#D2BCA0);
+  color: #ff0066;
+  text-shadow: 1px 1px 2px white;
+}
+
+img{
+  width: 100%;
+  
+}
+ .design {
+  margin: 32px;
+  float: left;
+  width: 45%;
+  border: 0.1px solid white;
+  animation: lighteffect 4s linear infinite alternate;
+ }
+  /*
+  box-shadow: 4px 4px 20px gray, 0.2px 0.2px 20px gray;
+ transition-property:box-shadow;
+   transition-duration: 2s;
+   transition-timing-function: linear;
+  }
+
+ .design:hover {
+   border: 0.1px solid white;
+   box-shadow: 8px 8px 20px white, 0.1px 0.1px 10px white;
+  }*/
+  
+ .content-design{
+   text-align: center;
+   color: white;
+   text-shadow: 1px 1px 8px gray;
+   font-size: 20px;
+   font-weight: bold;
+   animation: lighteffect2 4s linear infinite alternate;
+ }
+ .content-design:hover{
+   text-shadow: 1px 1px 8px white;
+   font-size: 20px;
+ }
+@keyframes lighteffect {
+ 0%  {box-shadow: 8px 8px 20px gray, 4px 4px 20px gray;}
+ 50%  {box-shadow: 8px 8px 20px #ccffff, 4px 4px 20px #ccffff;}
+ 100% {box-shadow: 8px 8px 20px white, 4px 4px 20px white;}
+}
+
+@keyframes lighteffect2 {
+ 0%  {text-shadow: 0.1px 0.1px 0px white;}
+ 50%  {text-shadow: 1px 1px 4px #ccffff;}
+ 100% {text-shadow: 1px 1px 10px white;}
+}
+ footer {
+   color: white; 
+   margin-top: 60px;
+   font-size: 30px;
+   text-align: center;
+ }
+ 
+.fa{ padding: 5px;
+   width: 32px;
+   background-color: white;
+   border: 1px solid white;
+   text-align: center;
+   text-decoration: none;
+   margin: 3px 1px;
+   border-radius: 10%;
+   color: gray;
+}
+footer p{
+  text-shadow: 1px 1px 2px black;
+}
+form{
+  margin: 90px;
+  margin-top: 250px;
+  font-size: 24px;
+  margin-left: 570px;
+  color: white;
+  text-shadow: 1px 1px 6px gray;
+}
+header{
+  background-image:linear-gradient(to bottom right,#2A2B3D,transparent,#D2BCA0)
+  ,url(Lap1.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 750px;}
+  
+#h1{
+    color: white;
+    font-size: 55px;
+    text-shadow: -1px 1px 1.5px black,-1px 1px 1.5px black;
+  }
+  
+ #p{
+    color: white;
+    font-size: 32px;
+    text-shadow: -1px 1px 1.5px black,-1px 1px 1.5px black;
+  } 
+#imgcontent{
+color: white;
+border-radius:0px 100px 0px 0px;
+margin-top: 220px;
+margin-left: 545px;
+opacity: 0.93;
+text-align: left;
+text-shadow: -1px 1px 1.5px black,-1px 1px 1.5px black;
+}
+
+.text{
+position: absolute;
+top: 120px;
+right: 50px;
+left: 520px;
+font-weight: bold;
+font-size: 35px;
+ text-shadow: 2px 2px 6px gray;
+font-style: bold;
+}
+.text-p {
+  font-weight: normal;
+  font-size: 26px;
+  color: white;
+  margin-top: 20px;
+ }
+input{
+  color: white;
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  font-size: 20px;
+}
+::placeholder{
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+::selection{
+  color: white;
+  background: white;
+}
+.button{
+  background-image: linear-gradient(to left,#D2BCA0,white,#D2BCA0);
+  text-decoration: none;
+  margin-left: 25px;
+  float: left;
+  padding: 8px;
+  font-weight: bold;
+  border-radius: 6px;
+  box-shadow: 0.5px 0.5px 10px black;
+  background-image: linear-gradient(to left,);
+  color: black;
+  text-shadow: 1px 1px 2px white;
+}
+.submit{
+  background-image: linear-gradient(to left,#D2BCA0,white,#D2BCA0);
+  margin: 20px;
+  text-decoration: none;
+  margin-left: 10px;
+  float: left;
+  padding: 8px;
+  font-weight: bold;
+  border-radius: 6px;
+  box-shadow: 0.5px 0.5px 10px black;
+  background-image: linear-gradient(to left,);
+  color: black;
+  text-shadow: 1px 1px 2px white;
+}
+fieldset{
+  border: none;
+}
+legend{
+ text-decoration: none;
+ float: left;
+ font-weight: bold;
+ font-size: 35px;
+ padding: 10px;
+ padding-bottom: 20px;
+ color: white;
+ text-shadow: 1px 1px 2px gray;}
+  
+.maintext
+{ padding: 50px;
+  margin-left: 590px;
+  margin: 22px;
+  text-align: left;
+  text-shadow: 2px 2px 4px black;
+  color: white;
+  
+}
+  
+.fa-facebook:hover{
+       background-color: #4267B2;
+       
+       box-shadow: none;
+       text-shadow: none;
+ 
+       color: white;
+       padding: 10px;
+       text-decoration: none;
+      
+}  
+.fa-youtube-play:hover{
+       background-color: #d71e18;
+      
+       box-shadow: none;
+       text-shadow: none;
+       color: white;
+       padding: 10px;
+       text-decoration: none;
+     
+}  
+.fa-instagram:hover{
+       background-image:linear-gradient(to bottom right,#405DE6,#5851DB,#833AB4,#C13584,#E1306C,#FD1D1D,#F56040,#F77737,#FCAF45,#FFDC80);
+       
+       box-shadow: none;
+       text-shadow: none;
+       
+       color: white;
+       padding: 10px;
+       text-decoration: none;
+}
+      
+.fa-whatsapp{
+    background-image:linear-gradient(#25d366,#25d366);
+   font-size: 80px;
+   box-shadow: none;
+   text-shadow: none;
+   color: white;
+   padding: 10px;
+   text-decoration: none;
+   border-radius: 50%;
+   position: fixed;
+   bottom: 25px;
+   right: 25px;
+   padding: 10px;
+   text-shadow: 1px 1px 6px gray;
+}
+.fa-diamond{
+  border: none;
+  color: white;
+  background-color: transparent;
+}
+#fa-logo{
+    font-size: 25px;
+    border-bottom: 1px solid white;
+    position: relative;
+    left: 160px;
+  }
+#footerline{
+   padding-top: 70px;
+   border-bottom:1px solid white;
+}
+video{
+  width: 100%;
+}
+
+@media screen and (max-width: 480px){
+  
+ video{
+   width: 100%;
+ }
+.fa-diamond{
+  border: none;
+  color: white;
+  background-color: transparent;
+}
+#fa-logo{
+    font-size: 28px;
+    border-bottom: 1px solid white;
+    position: relative;
+    text-align: center;
+    right: 200px;
+  }
+#bars{
+  visibility: visible;
   margin: 10px;
   background-color: transparent;
   color: white;
   text-shadow: 1px 1px 4px black;
   border: none;
   font-size: 30px;
-}
-.dropdown {
+  }
+  .dropdown {
   position: relative;
   display: inline;
 }
 
 .dropdown-content {
   margin-top: 15px;
+  margin: 0px;
   display: none;
   position: absolute;
   background-image: linear-gradient(to right,#2A2B3D,#D2BCA0);
@@ -76,24 +381,23 @@ img{
 }
  .design {
   margin: 45px;
+  width: 75%;
   border: 0.1px solid white;
   box-shadow: 4px 4px 20px gray, 0.2px 0.2px 20px gray;
-  
-  transition-property:margin, box-shadow, border;
+  transition-property:box-shadow;
    transition-duration: 2s;
    transition-timing-function: linear;
   }
 
- .design:hover {
-   margin: 35px;
-   border: 0.1px solid white;
+.design:hover {
+   margin: 45px;
    box-shadow: 8px 8px 20px white, 0.1px 0.1px 10px white;
   }
   
  .content-design{
    text-align: center;
    color: white;
-   padding-bottom: 10px;
+   padding-bottom:10px;
    text-shadow: 1px 1px 8px gray;
    font-size: 20px;
    font-weight: bold;
@@ -103,6 +407,17 @@ img{
    text-shadow: 1px 1px 8px white;
    font-size: 20px;
  }
+ .maintext
+{ padding: 0px;
+  margin: 0px;
+  text-align: center;
+  text-shadow: 2px 2px 4px black;
+  color: white;}
+ 
+ .maintext2{
+   
+  margin: 30px;
+ } 
  div{
    text-align: center;
  }
@@ -127,26 +442,34 @@ footer p{
 }
 form{
   text-align: center;
-  margin-bottom: 100px;
- 
+
+  margin: 10px;
+  font-size: 24px;
+  
 }
 header{
+ 
   background-image:linear-gradient(to bottom right,#2A2B3D,transparent,#D2BCA0)
   ,url(Lap22.png);
   background-size: cover;
   height: 500px;}
   
- #h1{
+#h1{
     color: white;
     font-size: 35px;
-    text-shadow: -1px 1px 1.5px black,-1px 1px 1.5px black;
+    text-shadow: -1px 1px 1.5px,black,-1px 1px 1.5px black;
   }
+#p{
+  color: white;
+  font-size: 24px;
+  text-shadow: -1px 1px 1.5px,black,-1px 1px 1.5px black;
+  padding: 0;
+  } 
 #imgcontent{
 color: white;
-border-radius:0px 100px 0px 0px;
 background-size: cover;
-padding-top: 110px;
-margin: 15px;
+padding-top: 70px;
+margin: 5px;
 opacity: 0.93;
 text-align: left;
 text-shadow: -1px 1px 1.5px black,-1px 1px 1.5px black;
@@ -158,7 +481,8 @@ input{
   border: none;
   border-bottom: 2px solid white;
   padding: 10px;
- font-size: 20px;
+  font-size: 20px;
+  margin: 0px;
 }
 ::placeholder{
   color: white;
@@ -169,43 +493,38 @@ input{
   color: white;
   background: white;
 }
-input[ type="submit"]{
-  background-image: linear-gradient(to left,#D2BCA0,white,#D2BCA0);
-  text-decoration: none;
-  margin: 35px;
-  margin-top: 25px;
-  float: left;
-  padding:  8px;
-  border-radius: 6px;
-  box-shadow: 0.5px 0.5px 10px black;
-  color: black;
-  text-shadow: 1px 1px 2px white;
-}
 fieldset{
   border: none;
 }
 legend{
- text-decoration: none;
- float: left;
- margin: 20px;
- margin-bottom: 2px;
+text-decoration: none;
+float: left;
+margin: 20px;
+margin-bottom: 2px;
  font-weight: bold;
  font-size: 25px;
  padding: 10px;
- color: white;
+  color: white;
   text-shadow: 1px 1px 2px black;}
   
-.about-h1{
-  
-  font-size: 20px;
-  text-shadow: 2px 2px 4px black;
-  color: white;
+.text{
+  font-size: 30px;
+  text-shadow: 2px 2px 6px gray;
+  font-weight: bold;
+  position: absolute;
+  top:70px;
+  left: 40px;
 }
  .text-p {
-  margin: 30px;
-  color: white;
-  text-align: left;
-  text-shadow: 1px 1px 6px black;
+  font-weight: normal;
+  opacity: 0.93;
+  margin: 0px;
+  margin-top: 20px;
+  font-size: 22px;
+  height: 370px;
+  text-align: center;
+  overflow: scroll;
+  text-shadow: 1px 1px 6px gray;
 }
 .whatsapp-fixed{  
   position: fixed;
@@ -255,89 +574,265 @@ legend{
        text-shadow: 1px 1px 6px gray;
        
 }
-.fa-diamond{
-  border: none;
-  color: white;
-  background-color: transparent;
+  
+  #footerline {
+  padding-top: 10px;
+  border-bottom:1px solid white;
 }
-  #fa-logo{
-    font-size: 25px;
-    border-bottom: 1px solid white;
-  }
- #footerline {
-border-bottom:1px solid white;
 }
-@media screen and (min-width:980){
- .dropdown-content {
- float: left;
- margin: 30px;
-}
-#bars{
-  visibility: hidden;
-}
-.dropdown-content a {
-  font-size: 25px;
-}
-
+@media screen and (min-width: 754px){
+  
 form{
-  margin: 90px;
-  margin-top: 250px;
+  text-align: center;
+  margin: 30px;
+  margin-top: 50px;
   font-size: 24px;
-  margin-left: 570px;
+  margin-left: 270px;
   color: white;
   text-shadow: 1px 1px 6px gray;
 }
+  
+#h1{ 
+ font-size: 35px;
+}
+#p{
+  font-size: 24px;  } 
+#imgcontent{
+color: white;
+background-size: cover;
+padding-top: 210px;
+margin: 105px;
+opacity: 0.93;
+text-align: left;
+text-shadow: -1px 1px 1.5px black,-1px 1px 1.5px black;
+}
+
+input{
+  padding: 20px;
+  font-size: 20px;
+}
+
+input[ type="submit"]{
+  margin-left: 85px;
+  margin-top: 20px;
+  float: left;
+}
+legend{
+text-decoration: none;
+float: left;
+ margin: 40px 60px 0px 60px;
+font-weight: bold;
+ font-size: 25px;
+ padding: 10px;
+  color: white;
+  text-shadow: 1px 1px 2px black;}
+  
+.text{
+  font-size: 30px;
+  text-shadow: 2px 2px 6px gray;
+  font-weight: bold;
+  position: relative;
+  top:160px;
+  left:0px;
+}
+ .text-p {
+  font-weight: normal;
+  opacity: 0.93;
+  margin: 160px;
+  margin-top: 20px;
+  font-size: 22px;
+  text-align: center;
+}
+#footerline {
+  padding-top: 100px;
+  border-bottom:1px solid white;
+}
+}
+@media screen and (min-width:980px){
+
+.dropdown-content a {
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 30px white;
+  font-size: 25px;
+}
+
+ .design {
+  margin: 32px;
+  float: left;
+  width: 45%;
+  border: 0.1px solid white;
+  animation: lighteffect 4s linear infinite alternate;
+ }
+form{
+  margin: 90px;
+  margin-top: 200px;
+  font-size: 24px;
+  margin-left: 570px;
+}
 header{
-  background-image:url(Lap1.png);
+  background-image:linear-gradient(to bottom right,#2A2B3D,transparent,#D2BCA0)
+  ,url(Lap1.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 750px;}
   
-#p{ color: white;
-    font-size: 42px;
-    text-shadow: -1px 1px 1.5px black,-1px 1px 1.5px black;
+#h1{
+    font-size: 55px;}
+ #p{
+   font-size: 32px;
+ }
+ #imgcontent{
+padding-top: 100px;
+margin-top: 0px;
+margin-left:545px;
+opacity: 0.93;
+text-align: left;
 }
-    
-#imgcontent{
-margin-top: 220px;
-margin-left: 545px;
+
+.text{
+position: absolute;
+top: 120px;
+right: 50px;
+left: 520px;
+text-align: center;
+font-weight: bold;
+font-size: 35px;
+ text-shadow: 2px 2px 6px gray;
+font-style: bold;
 }
-.about-h1{
-position: relative;
-font-size: 45px;
-top:80px;
-}
-input[ type="submit"]{
-  margin: 10px;
+.text-p {
+  font-weight: normal;
+  font-size: 26px;
+  margin: 15px;
+  color: white;
   margin-top: 20px;
+ }
+input{
+  color: white;
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  font-size: 20px;
+}
+::placeholder{
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+::selection{
+  color: white;
+  background: white;
+}
+.button{
+  background-image: linear-gradient(to left,#D2BCA0,white,#D2BCA0);
+  text-decoration: none;
+  margin-left: 25px;
+  float: left;
+  padding: 8px;
+  font-weight: bold;
+  border-radius: 6px;
+  box-shadow: 0.5px 0.5px 10px black;
+  background-image: linear-gradient(to left,);
+  color: black;
+  text-shadow: 1px 1px 2px white;
+}
+input[type="submit"]{
+  background-image: linear-gradient(to left,#D2BCA0,white,#D2BCA0);
+  margin-left: 15px;
+  float: left;
+  padding: 8px;
+  font-weight: bold;
+  border-radius: 6px;
+  box-shadow: 0.5px 0.5px 10px black;
+  text-shadow: 1px 1px 2px white;
+}
+fieldset{
+  border: none;
 }
 legend{
+ text-decoration: none;
+ float: left;
  font-weight: bold;
  font-size: 35px;
  padding: 10px;
  padding-bottom: 20px;
-}
+ color: white;
+ text-shadow: 1px 1px 2px gray;}
+  
 .maintext
 { padding: 50px;
   margin-left: 590px;
   margin: 22px;
   text-align: left;
   text-shadow: 2px 2px 4px black;
-  color: white;}
-.text-p {
-  margin: 0px 50px 50px 600px;
-  font-size: 26px;
- }
+  color: white;
   
+}
+  
+.fa-facebook:hover{
+       background-color: #4267B2;
+       
+       box-shadow: none;
+       text-shadow: none;
+ 
+       color: white;
+       padding: 10px;
+       text-decoration: none;
+      
+}  
+.fa-youtube-play:hover{
+       background-color: #d71e18;
+      
+       box-shadow: none;
+       text-shadow: none;
+       color: white;
+       padding: 10px;
+       text-decoration: none;
+     
+}  
+.fa-instagram:hover{
+       background-image:linear-gradient(to bottom right,#405DE6,#5851DB,#833AB4,#C13584,#E1306C,#FD1D1D,#F56040,#F77737,#FCAF45,#FFDC80);
+       
+       box-shadow: none;
+       text-shadow: none;
+       
+       color: white;
+       padding: 10px;
+       text-decoration: none;
+}
+      
+.fa-whatsapp{
+    background-image:linear-gradient(#25d366,#25d366);
+   font-size: 80px;
+   box-shadow: none;
+   text-shadow: none;
+   color: white;
+   padding: 10px;
+   text-decoration: none;
+   border-radius: 50%;
+   position: fixed;
+   bottom: 25px;
+   right: 25px;
+   padding: 10px;
+   text-shadow: 1px 1px 6px gray;
+}
+.fa-diamond{
+  border: none;
+  color: white;
+  background-color: transparent;
+}
 #fa-logo{
+    font-size: 25px;
+    border-bottom: 1px solid white;
     position: relative;
     left: 160px;
-}
+  }
 #footerline{
-   padding-top: 100px;
+   padding-top: 140px;
+   border-bottom:1px solid white;
 }
-.design {
-  width: 40%;
-}
-
 }
