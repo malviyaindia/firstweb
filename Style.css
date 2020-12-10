@@ -267,7 +267,7 @@ legend{
  #footerline {
 border-bottom:1px solid white;
 }
-@media (max-width:980){
+@media (max-width:1024){
  .dropdown-content {
  float: left;
  margin: 30px;
