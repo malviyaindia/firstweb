@@ -21,7 +21,7 @@
   text-decoration: none;
   text-shadow: 1px 1px 30px white;
   border-radius: 10px;
-  top:30px;
+  top:210px;
   position: absolute;
   font-size: 25px;
 } 
@@ -355,7 +355,7 @@ video{
   width: 160px;
   position: absolute;
   font-size: 20px;
-  top:200;
+  
 } 
  video{
    width: 100%;
