@@ -2,11 +2,45 @@
   margin: 0;
   padding: 0;
 }
-
+.services{
+  display:none;
+  position: relative;
+  top:4px;
+  text-align: center;
+  background-color: transparent;
+  border-top: 0.1px solid white;
+}
+.services:hover{
+  background-color: black;
+}
+#service_button{
+  background-color: transparent;
+  border: none;
+  list-style-type: none;
+  color: white;
+  text-decoration: none;
+  text-shadow: 1px 1px 30px white;
+  border-radius: 10px;
+  top:30px;
+  position: absolute;
+  font-size: 25px;
+} 
+#service_button:hover .services{
+  display: block;
+}
+#service_button:hover{
+  background-color: transparent;
+  border:0.1px solid white;
+}
+#w3{ font-size: 20px;}
+#w4{
+  font-size: 20px;
+}
 body{
   color: white;
   font-family: 'Major Mono Display';
   margin: 0px;
+  list-style-type: none;
   background-image: linear-gradient(to right,#2A2B3D,#D2BCA0);
 }
 
@@ -21,11 +55,13 @@ header h1,p{
   padding: 15px;
   padding-right: 10px;
 }
-
+#contact{
+  margin-left: 100px;
+  
+}
 .dropdown-content {
   float: left;
   margin: 30px;
-  z-index: 1;
 }
 #bars{
   visibility: hidden;
@@ -33,7 +69,7 @@ header h1,p{
 
 .dropdown-content a {
   color: white;
-  padding: 20px;
+  padding: 10px;
   text-decoration: none;
   text-align: center;
   text-shadow: 1px 1px 30px white;
@@ -65,17 +101,6 @@ img{
   border: 0.1px solid white;
   animation: lighteffect 4s linear infinite alternate;
  }
-  /*
-  box-shadow: 4px 4px 20px gray, 0.2px 0.2px 20px gray;
- transition-property:box-shadow;
-   transition-duration: 2s;
-   transition-timing-function: linear;
-  }
-
- .design:hover {
-   border: 0.1px solid white;
-   box-shadow: 8px 8px 20px white, 0.1px 0.1px 10px white;
-  }*/
   
  .content-design{
    text-align: center;
@@ -129,8 +154,7 @@ form{
   text-shadow: 1px 1px 6px gray;
 }
 header{
-  background-image:linear-gradient(to bottom right,#2A2B3D,transparent,#D2BCA0)
-  ,url(Lap1.png);
+  background-image:linear-gradient(to bottom right,#2A2B3D,transparent,#D2BCA0)url(Lap77.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 750px;}
@@ -306,7 +330,33 @@ video{
 }
 
 @media screen and (max-width: 480px){
-  
+  #contact{
+    margin-left:10px;
+  }
+#w3 {
+  display:none;
+  font-size: 17px;
+}
+#w4{
+  font-size: 17px;
+  display: none;
+}
+#service_button:hover #w3{
+  display: block;
+}
+#service_button:hover #w4{
+  display: block;
+}
+
+#service_button{
+  display: inline-block;
+  margin:0px;
+  right:100px;
+  width: 160px;
+  position: absolute;
+  font-size: 20px;
+  top:200;
+} 
  video{
    width: 100%;
  }
@@ -342,7 +392,7 @@ video{
   display: none;
   position: absolute;
   background-image: linear-gradient(to right,#2A2B3D,#D2BCA0);
-  min-width: 358px;
+  min-width: 368px;
   height: 1000px;
   border-bottom: 0.1px solid white;
   z-index: 1;
@@ -360,9 +410,10 @@ video{
 }
 .dropdown-content a:hover
 {
-   background-image: linear-gradient(to right,#2A2B3D,white,#D2BCA0);
+   background-image: linear-gradient(to right,#D2BCA0,white,#D2BCA0);
    color: black;
 }
+
 .dropdown:hover .dropdown-content{
   display: block;
 }
@@ -429,10 +480,7 @@ img{
  }
 .fa{ padding: 5px;
    width: 32px;
-  background-color: white;
-  border: 1px solid white;
   text-align: center;
-  text-decoration: none;
   margin: 3px 1px;
   border-radius: 10%;
   color: gray;
@@ -568,20 +616,45 @@ margin-bottom: 2px;
  .fa-whatsapp{
         background-image:linear-gradient(#25d366,#25d366);
        font-size: 80px;
-       box-shadow: none;
-       text-shadow: none;
        color: white;
        text-shadow: 1px 1px 6px gray;
-       
-}
+ }
   
   #footerline {
   padding-top: 10px;
   border-bottom:1px solid white;
 }
 }
-@media screen and (min-width: 754px){
+@media screen and (min-width: 754px)
+{
+  header{
+    background-image: url(Lap22.png);
+  }
+  #contact{
+  margin-left:100px;
+}
+#w3{
+  font-size: 17px;
+}
+#w4{
+  font-size: 17px;
+}
   
+ .dropdown-content a {
+   font-size: 20px; 
+  }
+  .service{
+    left:70px;
+  }
+ #service_button{
+  float: right;
+  text-shadow: 1px 1px 30px white;
+  width: 150px;
+  top: 24px;
+  right: 405px;
+  font-size: 20px;
+
+} 
 form{
   text-align: center;
   margin: 30px;
@@ -649,7 +722,20 @@ font-weight: bold;
 }
 }
 @media screen and (min-width:980px){
+ #contact{
+ 
+  margin-left: 150px;
+  }
+#service_button{
+  float: right;
+  color: white;
+  text-decoration: none;
+  right:520px;
+  width: 200px;
+  position: absolute;
+  font-size: 25px;
 
+} 
 .dropdown-content a {
   color: white;
   padding: 20px;
@@ -807,23 +893,14 @@ legend{
       
 .fa-whatsapp{
     background-image:linear-gradient(#25d366,#25d366);
-   font-size: 80px;
    box-shadow: none;
    text-shadow: none;
    color: white;
-   padding: 10px;
    text-decoration: none;
-   border-radius: 50%;
    position: fixed;
    bottom: 25px;
-   right: 25px;
-   padding: 10px;
+   right: 45px;
    text-shadow: 1px 1px 6px gray;
-}
-.fa-diamond{
-  border: none;
-  color: white;
-  background-color: transparent;
 }
 #fa-logo{
     font-size: 25px;
