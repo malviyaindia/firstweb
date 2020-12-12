@@ -10,9 +10,6 @@
   background-color: transparent;
   border-top: 0.1px solid white;
 }
-.services:hover{
-  background-color: black;
-}
 #service_button{
   background-color: transparent;
   border: none;
@@ -77,7 +74,7 @@ header h1,p{
 }
 .dropdown-content a:hover
 {
-   background-image: linear-gradient(to right,#2A2B3D,white, #2A2B3D);
+   background-image: linear-gradient(to right,transparent,white,transparent);
    color: black;
 }
 div a{
@@ -352,7 +349,7 @@ video{
   display: inline-block;
   margin:0px;
   right:100px;
-  width: 160px;
+  width: 140px;
   position: absolute;
   font-size: 20px;
   
@@ -410,7 +407,7 @@ video{
 }
 .dropdown-content a:hover
 {
-   background-image: linear-gradient(to right,#D2BCA0,white,#D2BCA0);
+   background-image: linear-gradient(to right,transparent,white,transparent);
    color: black;
 }
 
@@ -580,8 +577,8 @@ margin-bottom: 2px;
         right: 25px;
  }
         
- .fa-facebook:hover{
-       background-color: #4267B2;
+ .fa-twitter:hover{
+       background-color: #1DA1F2;
        
        box-shadow: none;
        text-shadow: none;
@@ -617,6 +614,8 @@ margin-bottom: 2px;
         background-image:linear-gradient(#25d366,#25d366);
        font-size: 80px;
        color: white;
+       padding: 10px;
+       border-radius:50%;
        text-shadow: 1px 1px 6px gray;
  }
   
@@ -649,9 +648,9 @@ margin-bottom: 2px;
  #service_button{
   float: right;
   text-shadow: 1px 1px 30px white;
-  width: 150px;
+  width: 130px;
   top: 24px;
-  right: 405px;
+  right: 415px;
   font-size: 20px;
 
 } 
@@ -731,7 +730,7 @@ font-weight: bold;
   color: white;
   text-decoration: none;
   right:520px;
-  width: 200px;
+  width: 170px;
   position: absolute;
   font-size: 25px;
 
