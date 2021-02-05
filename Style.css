@@ -40,7 +40,7 @@ body{
   display: flex;
   flex-direction: column;
   list-style-type: none;
-  background-image: linear-gradient(to right,#2A2B3D,#D2BCA0);
+  background-image:url(https://2.bp.blogspot.com/-Cunhwsdp0mY/XkwPhif1ZJI/AAAAAAAABbQ/QcKYgn8WpuggeTcr90fNXlmGQE0Mpy0JwCK4BGAYYCw/s480/hero-wrapper.png), linear-gradient(to right,#2A2B3D,#D2BCA0);
 }
 
 header h1,p{
