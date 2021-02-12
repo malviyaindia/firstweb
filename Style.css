@@ -93,6 +93,9 @@ img{
  border-radius: 2.0%;
  border: 0.1px solid white;
  }
+  .design:hover {
+   box-shadow: 4px 4px 20px white;
+  }
   
  .content-design{
    text-align: center;
@@ -368,11 +371,7 @@ img{
   width: 100%;
 }
 
-.design:hover {
-   
-   box-shadow: 4px 4px 20px white;
-  }
-  
+
  .content-design{
    text-align: center;
    color: white;
