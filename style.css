@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+    font-size: 15pt;
+    font-family: sans-serif;
+    background: yellow;
+}
+
+main {
+  font-size: 30px;
+  margin: 15%;
+}
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  display: block;
+  color:  white;
+  text-align: center;
+  padding: 12px 16px;
+  text-decoration: none;
+  font-size: 20px;
+ 
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  
+}
+
+/* Add an active class to highlight the current page */
+.topnav .logo {
+  display: inline-block;
+  color: white;
+  margin: 3px;
+  padding: 0px;
+  float: left;
+  border: none;
+}
+img{
+  width: 130px;
+  float: left;
+}
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+  margin: 1px 4px;
+  border: none;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 30px;
+  height: 2.2px;
+  background-color: white;
+  margin: 5px 0 5px 0;
+  transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-3px, 2.0px) ;
+  transform: rotate(-45deg) translate(-3px, 2.0px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+  opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+  transform: rotate(45deg) translate(-8px, -8px) ;
+}
