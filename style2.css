@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300&display=swap');
+*{
+    margin: 0px;
+    outline: none;}
+html{
+	height: 100%;
+}
+body {
+     font-size: 2.1vw;
+     font-family: sans-serif;
+     color: white;
+     display: flex;
+   flex-direction: column;
+   height: 100%;
+}
+header{
+        padding: 20px;
+        font-size: 18px;
+        text-align: center;
+        background: url(https://2.bp.blogspot.com/-Cunhwsdp0mY/XkwPhif1ZJI/AAAAAAAABbQ/QcKYgn8WpuggeTcr90fNXlmGQE0Mpy0JwCK4BGAYYCw/s480/hero-wrapper.png) ,linear-gradient(to top ,#00ccff,#008BD6);
+    border-radius: 0% 0% 8% 8%;
+  /*
+      background: linear-gradient( to left, #01FFE7,#008BD6);*/
+    
+}
+img{
+        width: 25%;
+}
+.h1{
+        text-align: center;
+        color: #008BD6;
+        margin: 10% 2% 0% 2%;
+}
+.flex{
+        text-align: center;
+        margin: 14px;
+}
+i{   color: white;
+     background: transparent;
+     padding: 10%;
+     font-size: 30px;
+     border-radius: 100%;
+     border: 0.1px solid white;
+}
+.div1{
+        background: url(https://2.bp.blogspot.com/-Cunhwsdp0mY/XkwPhif1ZJI/AAAAAAAABbQ/QcKYgn8WpuggeTcr90fNXlmGQE0Mpy0JwCK4BGAYYCw/s480/hero-wrapper.png) ,linear-gradient(to bottom,#01FFE7,#008BD6);
+        box-shadow: 1px 1px 8px lightgray, -1px -1px 8px lightgray;
+        border-radius: 10%;
+        width: 40%;
+        margin:4% 3%;
+        padding: 2%;
+        border-radius: 10px;
+        float: left;
+}
+
+.div1 h1,.div p{
+  padding: 4% 2% ;
+}
+button{
+  width: 90%;
+  padding: 6px 8px;
+  margin: 6% 5%;
+  border:0.1px solid white;
+  border-radius: 6px;
+  background: linear-gradient(to top right,  #01ffe7, #008BD6);
+  font-size: 15px;
+  font-weight: bolder;
+  color: white;
+  
+}
+a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+.fa-external-link-alt{
+        padding: 10px 0px;
+       font-size: 15px;
+       font-weight: normal;
+     
+}
+button:hover {
+   background:linear-gradient(to top left,#01FFE7,#008BD6);   
+   box-shadow: 1px 1px 6px white, -1px -1px 6px white;
+}
+footer {
+    margin-top: auto;
+    padding: 20px;
+    border-radius: 8% 8% 0% 0%;
+    text-align: center;
+    background: url(https://2.bp.blogspot.com/-Cunhwsdp0mY/XkwPhif1ZJI/AAAAAAAABbQ/QcKYgn8WpuggeTcr90fNXlmGQE0Mpy0JwCK4BGAYYCw/s480/hero-wrapper.png) ,linear-gradient(to bottom ,#00ccff,#008BD6);
+}
+footer  a{
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  margin-bottom: 5%;
+  filter: drop-shadow(0px 0px white);
+}
+.fa-twitter{
+  font-size: 20px;
+}
+footer P{
+  padding-top: 10px;
+  opacity: 0.9;
+  font-size: 12px;
+}
+
+.add-to{
+  margin: 2% 6% ;
+  padding: 0;
+
+} .add-to-btn{
+    box-shadow: none;
+    background: transparent;
+    border: 1px solid white;
+    width: 160px;
+    padding: 6px;
+    font-size: 22px;
+  }
+@media screen and (min-width: 960px){
+img{
+		width: 25%;}
+.h1{
+     margin: 5% 15% 0% 15%;
+}
+.div1{
+	margin: 5% 10%;
+	width: 75%;
+}
+}
