@@ -4,7 +4,35 @@ body {
     font-family: sans-serif;
     background: yellow;
 }
+.div{
 
+  margin: 5% 15%;
+
+}
+
+  .a{
+
+    background: gray;
+
+    color: white;
+
+    font-size: 25px;
+
+    padding: 10px;
+
+  }
+
+  .iframe{
+
+    border: none;
+
+    width: 100%;
+
+    height: 900px;
+
+   
+
+  }
 main {
   font-size: 30px;
   margin: 15%;
